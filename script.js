@@ -22,7 +22,7 @@ function showResults(data) {
         results.innerHTML += `
             <div class="card">
                 <h3>${noticia.title}</h3>
-                <img src="${noticia.image_url || 'img/icon.png'}">
+                <img src="${noticia.image_url || 'icon.png'}">
                 <p>${noticia.description || "Sin descripción"}</p>
                 <a href="${noticia.url}" target="_blank">Leer más</a>
             </div>
